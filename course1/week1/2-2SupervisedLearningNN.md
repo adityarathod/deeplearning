@@ -21,7 +21,13 @@
 - Different types of NNs are used for different applications, as seen above.
 - Visualization of the different types:
 
-
-
-
 ![](images/2-2-1.png)
+
+## Structured vs. Unstructured Data
+- Structured data = data in a database
+  - Each feature has a very well defined meaning
+
+- Unstructured data = things like audio, images, and text
+  - Not all of the pixels/audio/text has a well-defined meaning!
+  - Typically hard for computers to understand, but new advances make them really good
+  - NNs processing this are more glamorous and are heard about in the media a lot
