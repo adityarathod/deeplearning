@@ -13,7 +13,7 @@
 - The picture is represented to a computer as a matrix of RGB intensity values
   - If image is 64x64px, then you have 3 64x64 matrices, each corresponding to R,G,B channels
 - To feed this into a NN, we need to "unroll" matrices into an input feature vector $x$:
-  $$x= \begin{bmatrix} 255 \\ 231 \\ ... \\ ... \\ 255 \\ 134 \\ ... \\ ... \end{bmatrix}$$
+  $$ x= \begin{bmatrix} 255 \\ 231 \\ ... \\ ... \\ 255 \\ 134 \\ ... \\ ... \end{bmatrix}$$
 - The dimensionality of the vector $x$ is 64x64x3, or `12288`, meaning $x \in \mathbb{R}^{12288}$. Thus, the number of features $n_x = 12288$ (sometimes abbreviated as just $n$)
 
 
