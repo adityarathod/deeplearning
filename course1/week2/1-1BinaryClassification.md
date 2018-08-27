@@ -9,7 +9,7 @@
 
 ## What is Logistic Regression?
 - It's a binary classification problem
-  - Is a picture a cat (1), or not a cat (0)?
+  - "Is a picture a cat (1), or not a cat (0)?"
 - The picture is represented to a computer as a matrix of RGB intensity values
   - If image is 64x64px, then you have 3 64x64 matrices, each corresponding to R,G,B channels
 - To feed this into a NN, we need to "unroll" matrices into an input feature vector $x$:
