@@ -1,0 +1,54 @@
+# 2.1 What is a neural network?
+
+- Deep learning = training Neural Networks
+
+## Guiding Example: Housing Price Prediction
+
+- Given the size of a house, predict the price
+- You might fit a function like this:
+
+
+![](images/2-1-1.png)
+
+
+- Turns out this is actually a simple NN (the simplest possible one, actually):
+
+```
+                  +---------+
+                  |         |
+Size (x)+-------> | neuron  +-------> Price (y)
+                  |         |
+                  +---------+
+
+```
+
+- The function in the image above is called the ReLU function (Rectified Linear Unit)
+
+
+### More Complex Example: Multiple Features
+
+- Include more data than just size:
+
+![](images/2-1-2.png)
+
+
+- Let's call the features `size, bedrooms, zipcode, wealth` $x$, where $x \in \mathbb{R}^n$ (where $n$ is the number of features)
+- Let's call the price `y`
+
+
+- The beauty of a Neural Network is that you only give it `x` and `y` and it does everything else in the middle
+
+
+#### More Formal Definition
+
+$x_1$ is size, $x_2$ is #bedrooms, $x_3$ is the ZIP code, and $x_4$ is the "wealth" of an area.
+The goal is to predict the price $y$.
+
+![](images/2-1-3.png)
+
+The first layer is called the *input layer*, where the data comes in.
+The second layer is a *hidden layer*. Every node in the input layer is connected to every node in the hidden layer, making it *densely-connected*.
+
+## Review
+
+- Neural networks work really well in *supervised-learning* problems, where you're given some inputs $x$ and outputs $y$.
