@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<script src="https://cdn.jsdelivr.net/npm/texme@0.5.0"></script><textarea>
+# 2.3: Why is Deep Learning Taking Off?
+
+- What are the main drivers behind the resurgence of DL?
+
+## Scale Drives Deep Learning Progress
+
+- If you graph a traditional learning algorithm (SVM, regression) and a neural network as a function of the amount of data available, the traditional algorithm flatlines eventually, but a NN takes advantage of this additional data (depending on structure)
+  - We have **tons** of labeled data available today, from camera phones to online tracking
+
+![](images/2-3-1.png)
+
+- But if $m$ is small, it really depends on the features and other factors (sometimes SVMs or regression does better at a low amount of data)
+
+### Other Factors
+- We have tons of data, but we also have better (faster) algorithms
+  - One of the biggest improvements was to switch from a sigmoid activation function to ReLU function
+    - *Note: The ReLU equation is as follows:* $R(x) = \max{(0, x)}$
+    - It made GD work faster because it has a better gradient at large values of $x$
+- Plus, we have way more computing power
+  - The `Idea -> Experiment -> Code` cycle is faster (you can test and try your idea faster)
