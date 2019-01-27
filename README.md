@@ -1,5 +1,5 @@
-# Coursera Deep Learning Specialization Notes
+# 6.S191 Introduction to Deep Learning
 
-These are my personal notes and annotations for the deeplearning.ai course material.
-As per Coursera Honor Code, this repository does not contain any assignments or quizzes and only contains notes on the video lectures.
-Additionally, as per the Coursera Terms of Service, none of the course material is reuploaded in any form into this repo (save for screenshots of some complex diagrams in the videos).
+Course notes and code for 6.S191 Introduction to Deep Learning.
+
+(Not an MIT student, just viewing the lectures online)
